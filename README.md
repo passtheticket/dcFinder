@@ -10,7 +10,7 @@ _ldap._tcp.<SiteName>._sites.dc.<DNSDomainName>
 _ldap._tcp.pdc._msdcs.<DNSDomainName>
 _ldap._tcp.gc._msdcs.<DNSDomainName>
 _ldap._tcp.dc._msdcs.<DNSDomainName>
-_kerberos._tcp.dc._msdcs.<DNSDomainName>
+_kerberos._tcp.dc._msdcs.<DNSDomainName>https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
 ```
 USAGE:
 ```
@@ -23,3 +23,4 @@ Example : python3 dcFinder.py --lookup --domain offensive.local --query site --s
 Use kerberos option, if you have issue with ldap srv query for finding domain controller.
 Example : python3 dcFinder.py --lookup --domain offensive.local --query kerberos
 ```
+![alt text](https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
