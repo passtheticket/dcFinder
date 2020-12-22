@@ -62,7 +62,7 @@ class service_query:
             print(Fore.RED + Style.BRIGHT + '[-] Domain name was not resolved.')
             print(Fore.RED + Style.BRIGHT + '[-] Check your configuration which DNS server IP address of %s domain is set, please.' % domain)
             sys.exit(Fore.RED + '[-] One bad day!')
-        except:
+        except TypeError:
             print(Fore.RED + Style.BRIGHT + '[-] IP address of name server is not detected.')
             sys.exit(Fore.RED + '[-] One bad day!')
 
