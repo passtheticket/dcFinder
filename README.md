@@ -1,5 +1,5 @@
 # dcFinder v1.0
-```python
+```
             Additional Description:
             Use nonglobalcatalogdc option to check if there are Domain Controller(s) non-global catalog
             Examples : python3 dcFinder.py --lookup --domain offensive.local --query nonglobalcatalogdc
