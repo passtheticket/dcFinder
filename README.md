@@ -12,8 +12,9 @@ _ldap._tcp.gc._msdcs.<DNSDomainName>
 _ldap._tcp.dc._msdcs.<DNSDomainName>
 _kerberos._tcp.dc._msdcs.<DNSDomainName>https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
 ```
-USAGE:
+
 ```
+USAGE:
 Use globalcatalogdc option to detect DCs in the Forest.
 Example : python3 dcFinder.py --lookup --domain offensive.local --query globalcatalogdc
 Use nonglobalcatalogdc option to check if there are Domain Controller(s) non-global catalog or not.
@@ -23,4 +24,5 @@ Example : python3 dcFinder.py --lookup --domain offensive.local --query site --s
 Use kerberos option, if you have issue with ldap srv query for finding domain controller.
 Example : python3 dcFinder.py --lookup --domain offensive.local --query kerberos
 ```
-![alt text](https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
+
+   ![alt text](https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
