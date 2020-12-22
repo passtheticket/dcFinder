@@ -1,7 +1,7 @@
 # dcFinder v1.0
 
 dcFinder is basic python script that detects domain controllers in forest enviroinment using scapy module
-and DNS SRV records. In addition to detect hostname of domain controller, you can find Primary DC that is included a site.
+and DNS SRV records. In addition to detect hostname of domain controller, you can find Primary DC that is included in a specific site.
 
 Query types: site, primarydc, globalcatalogdc, nonglobalcatalogdc, kerberos
 ```
