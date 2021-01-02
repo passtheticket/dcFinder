@@ -10,11 +10,11 @@ _ldap._tcp.<SiteName>._sites.dc.<DNSDomainName>
 _ldap._tcp.pdc._msdcs.<DNSDomainName>
 _ldap._tcp.gc._msdcs.<DNSDomainName>
 _ldap._tcp.dc._msdcs.<DNSDomainName>
-_kerberos._tcp.dc._msdcs.<DNSDomainName>https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
+_kerberos._tcp.dc._msdcs.<DNSDomainName>
+```
+## Usage
 ```
 
-```
-USAGE:
 Use globalcatalogdc option to detect DCs in the Forest.
 Example : python3 dcFinder.py --lookup --domain offensive.local --query globalcatalogdc
 Use nonglobalcatalogdc option to check if there are Domain Controller(s) non-global catalog or not.
