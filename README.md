@@ -26,3 +26,19 @@ Example : python3 dcFinder.py --lookup --domain offensive.local --query kerberos
 ```
 
    ![alt text](https://github.com/passtheticket/dcFinder/blob/main/images/1.PNG)
+
+## Installation
+
+Please, install current development version of scapy firstly.
+```
+git clone https://github.com/secdev/scapy.git
+cd scapy
+sudo python setup.py install
+```
+Install following modules after above installation process.
+```
+argparse
+sys
+colorama
+```
+
