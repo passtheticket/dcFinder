@@ -79,7 +79,7 @@ class service_query:
             except:
                 print(str(answer["DNS"].show()))
                 print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
-                sys.exit(0)
+                sys.exit(1)
 
         else:
             print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
@@ -97,7 +97,7 @@ class service_query:
             except:
                 print(str(answer["DNS"].show()))
                 print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
-                sys.exit(0)
+                sys.exit(1)
         else:
             print(Fore.RED + '[-] Destination Unreachable!')
 
@@ -114,7 +114,7 @@ class service_query:
             except:
                 print(str(answer["DNS"].show()))
                 print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
-                sys.exit(0)
+                sys.exit(1)
         else:
             print(Fore.RED + '[-] Destination Unreachable!')
 
@@ -131,7 +131,7 @@ class service_query:
             except:
                 print(str(answer["DNS"].show()))
                 print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
-                sys.exit(0)
+                sys.exit(1)
 
         else:
             print(Fore.RED + '[-] Destination Unreachable!')
@@ -149,7 +149,7 @@ class service_query:
             except:
                 print(str(answer["DNS"].show()))
                 print(Fore.RED + Style.BRIGHT + "[-] Record was not found!")
-                sys.exit(0)
+                sys.exit(1)
 
         else:
             print(Fore.RED + '[-] Destination Unreachable!')
