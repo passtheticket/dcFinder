@@ -34,7 +34,7 @@ class service_query:
                     if args.query:
                         query = args.query
                         packetf = IP(dst=domain) / ICMP()
-                        send = scapy.all.sr1(packetf, verbose=0, timeout=10)
+                        send = scapy.all.sr1(packetf, verbose=0, timeout=3)
                         receive = send[0].src
                         print(Fore.GREEN + Style.BRIGHT + '[+] Domain name was resolved as: %s' % receive)
                         if args.query == "site":
